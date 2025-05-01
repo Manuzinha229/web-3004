@@ -1,22 +1,22 @@
-#container { /*id: so pode ser usado 1x*/
+#container{/* class pode ser usado varias vezes*/
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
-    padding: 5%;
+    padding: 5px;
+
     background-color: silver;
 }
-
-.caixa { /* class pode ser usado varias vezes*/
+.caixa{/*id: so pode ser usado 1x*/
     width: 300px;
     background-color: black;
-    color: whitesmoke;
-    padding: 15%;
+    color: aliceblue;
+    padding: 15px;
     border-radius: 10px;
     text-align: center;
-
 }
 
-img { /*tag: é o controle */
+
+img { /*tag: é o controle de*/
     max-width: 55%;
     max-height: 55%;
     width: auto;
